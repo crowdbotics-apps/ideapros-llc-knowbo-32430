@@ -1,12 +1,13 @@
 import React from "react";
-import { Text, View, TouchableOpacity, Image, StyleSheet, TextInput, TouchableHighlight } from "react-native";
+import { ScrollView, Text, View, TouchableOpacity, Image, StyleSheet, TextInput, TouchableHighlight } from "react-native";
 
 const pressed = () => {
   console.log("pressed");
 };
 
 const Signup = () => {
-  return <View style={styles.container}>
+  return <ScrollView>
+    <View style={styles.container}>
       <View style={styles.heading}>
         <Text style={styles.headingText}>Sign up</Text>
       </View>
@@ -50,7 +51,8 @@ const Signup = () => {
           <Text>Login</Text>
         </TouchableOpacity>
       </View>
-    </View>;
+    </View>
+    </ScrollView>;
 };
 
 const styles = StyleSheet.create({
