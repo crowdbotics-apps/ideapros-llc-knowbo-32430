@@ -116,7 +116,9 @@ const Untitled6 = ({
       fontSize: 14,
       borderRadius: 0,
       textAlign: "center"
-    }}>Profile</Text><Pressable onPress={() => navigation.navigate("Untitled9")}><View style={{
+    }}>Profile</Text><Pressable onPress={({
+      navigation
+    }) => navigation.navigate("Untitled9")}><View style={{
         left: 12,
         top: 302,
         position: "absolute",
@@ -146,16 +148,16 @@ const Untitled6 = ({
       fontSize: 14,
       borderRadius: 0,
       textAlign: "center"
-    }}>Bottom Menu</Text><View style={{
-      left: 140,
-      top: 126,
-      position: "absolute",
-      height: 55,
-      width: 40,
-      backgroundColor: "#dda7a7",
-      borderRadius: 0,
-      color: "#777777"
-    }}></View><Text style={{
+    }}>Bottom Menu</Text><Pressable onPress={() => navigation.navigate("Untitled2")}><View style={{
+        left: 130,
+        top: 118,
+        position: "absolute",
+        height: 55,
+        width: 40,
+        backgroundColor: "#dda7a7",
+        borderRadius: 0,
+        color: "#777777"
+      }}></View></Pressable><Text style={{
       left: 144,
       top: 144,
       position: "absolute",
