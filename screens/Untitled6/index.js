@@ -1,8 +1,11 @@
+import { Pressable } from "react-native";
 import { Text } from "react-native";
 import React from "react";
 import { View } from "react-native";
 
-const Untitled6 = () => {
+const Untitled6 = ({
+  navigation
+}) => {
   return <View style={{
     backgroundColor: '#f0f0f1',
     padding: 10,
@@ -59,27 +62,31 @@ const Untitled6 = () => {
       fontSize: 14,
       borderRadius: 0,
       textAlign: "center"
-    }}>Emergency</Text><View style={{
-      left: 20,
-      top: 242,
-      position: "absolute",
-      height: 31,
-      width: 160,
-      backgroundColor: "#2fa135",
-      borderRadius: 0,
-      color: "#777777",
-      borderWidth: 2
-    }}></View><View style={{
-      left: 20,
-      top: 277,
-      position: "absolute",
-      height: 31,
-      width: 160,
-      backgroundColor: "#2fa135",
-      borderRadius: 0,
-      color: "#777777",
-      borderWidth: 2
-    }}></View><Text style={{
+    }}>Emergency</Text><Pressable onPress={({
+      navigation
+    }) => navigation.navigate("Profilescreen")}><View style={{
+        left: 10,
+        top: 232,
+        position: "absolute",
+        height: 31,
+        width: 160,
+        backgroundColor: "#49c44f",
+        borderRadius: 0,
+        color: "#777777",
+        borderWidth: 2
+      }}></View></Pressable><Pressable onPress={({
+      navigation
+    }) => navigation.navigate("Untitled8")}><View style={{
+        left: 10,
+        top: 265,
+        position: "absolute",
+        height: 31,
+        width: 160,
+        backgroundColor: "#26c02e",
+        borderRadius: 0,
+        color: "#777777",
+        borderWidth: 2
+      }}></View></Pressable><Text style={{
       left: 20,
       top: 214,
       position: "absolute",
@@ -109,17 +116,17 @@ const Untitled6 = () => {
       fontSize: 14,
       borderRadius: 0,
       textAlign: "center"
-    }}>Profile</Text><View style={{
-      left: 20,
-      top: 313,
-      position: "absolute",
-      height: 31,
-      width: 160,
-      backgroundColor: "#2fa135",
-      borderRadius: 0,
-      color: "#777777",
-      borderWidth: 2
-    }}></View><Text style={{
+    }}>Profile</Text><Pressable onPress={() => navigation.navigate("Untitled9")}><View style={{
+        left: 12,
+        top: 302,
+        position: "absolute",
+        height: 31,
+        width: 160,
+        backgroundColor: "#2fa135",
+        borderRadius: 0,
+        color: "#777777",
+        borderWidth: 2
+      }}></View></Pressable><Text style={{
       left: 19,
       top: 319,
       position: "absolute",
