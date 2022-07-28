@@ -34,7 +34,7 @@ const Untitled1 = ({
       fontSize: 14,
       borderRadius: 0,
       textAlign: "center"
-    }}>QR Scanner </Text><Pressable onPress={() => navigation.navigate("Untitled2")}><View style={{
+    }}>QR Scanner </Text><Pressable onPress={() => navigation.navigate("Profile screen")}><View style={{
         left: -1,
         top: 182,
         position: "absolute",
