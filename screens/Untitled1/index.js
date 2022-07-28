@@ -13,7 +13,9 @@ const Untitled1 = ({
     height: "100%",
     borderRadius: 0
   }}>
-      <Pressable onPress={() => navigation.navigate("QR Scanner Screen")}><View style={{
+      <Pressable onPress={({
+      navigation
+    }) => navigation.navigate("Qrscannerscreen")}><View style={{
         left: -3,
         top: 19,
         position: "absolute",
@@ -32,7 +34,26 @@ const Untitled1 = ({
       fontSize: 14,
       borderRadius: 0,
       textAlign: "center"
-    }}>QR Scanner </Text></View>;
+    }}>QR Scanner </Text><Pressable onPress={() => navigation.navigate("Untitled2")}><View style={{
+        left: -1,
+        top: 182,
+        position: "absolute",
+        height: 60,
+        width: 178,
+        backgroundColor: "#E4E4E4",
+        borderRadius: 0,
+        color: "#777777"
+      }}></View></Pressable><Text style={{
+      left: 10,
+      top: 211,
+      position: "absolute",
+      width: 182,
+      height: 26,
+      lineHeight: 14,
+      fontSize: 14,
+      borderRadius: 0,
+      textAlign: "center"
+    }}>Profile</Text></View>;
 };
 
 export default Untitled1;

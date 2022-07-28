@@ -164,7 +164,7 @@ const Untitled6 = ({
       lineHeight: 9,
       fontSize: 14,
       borderRadius: 0
-    }}>Settings </Text></View>;
+    }}>Em. Settings </Text></View>;
 };
 
 export default Untitled6;
