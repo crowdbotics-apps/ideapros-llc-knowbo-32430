@@ -34,14 +34,14 @@ const Untitled6 = () => {
       top: 126,
       position: "absolute",
       height: 56,
-      width: 160,
+      width: 113,
       backgroundColor: "#a02f2f",
       borderRadius: 0,
       color: "#777777",
       borderWidth: 2
     }}></View><View style={{
       left: 20,
-      top: 195,
+      top: 208,
       position: "absolute",
       height: 31,
       width: 160,
@@ -53,7 +53,7 @@ const Untitled6 = () => {
       left: 20,
       top: 144,
       position: "absolute",
-      width: 160,
+      width: 114,
       height: 19,
       lineHeight: 14,
       fontSize: 14,
@@ -61,7 +61,7 @@ const Untitled6 = () => {
       textAlign: "center"
     }}>Emergency</Text><View style={{
       left: 20,
-      top: 236,
+      top: 242,
       position: "absolute",
       height: 31,
       width: 160,
@@ -81,7 +81,7 @@ const Untitled6 = () => {
       borderWidth: 2
     }}></View><Text style={{
       left: 20,
-      top: 201,
+      top: 214,
       position: "absolute",
       width: 160,
       height: 19,
@@ -100,8 +100,8 @@ const Untitled6 = () => {
       borderRadius: 0,
       textAlign: "center"
     }}>Medical History</Text><Text style={{
-      left: 20,
-      top: 243,
+      left: 22,
+      top: 249,
       position: "absolute",
       width: 160,
       height: 19,
@@ -110,7 +110,7 @@ const Untitled6 = () => {
       borderRadius: 0,
       textAlign: "center"
     }}>Profile</Text><View style={{
-      left: 18,
+      left: 20,
       top: 313,
       position: "absolute",
       height: 31,
@@ -129,7 +129,35 @@ const Untitled6 = () => {
       fontSize: 14,
       borderRadius: 0,
       textAlign: "center"
-    }}>Summary</Text></View>;
+    }}>Summary</Text><Text style={{
+      left: 20,
+      top: 193,
+      position: "absolute",
+      width: 159,
+      height: 14,
+      lineHeight: 8,
+      fontSize: 14,
+      borderRadius: 0,
+      textAlign: "center"
+    }}>Bottom Menu</Text><View style={{
+      left: 140,
+      top: 126,
+      position: "absolute",
+      height: 55,
+      width: 40,
+      backgroundColor: "#dda7a7",
+      borderRadius: 0,
+      color: "#777777"
+    }}></View><Text style={{
+      left: 144,
+      top: 144,
+      position: "absolute",
+      width: 31,
+      height: 22,
+      lineHeight: 9,
+      fontSize: 14,
+      borderRadius: 0
+    }}>Settings </Text></View>;
 };
 
 export default Untitled6;
