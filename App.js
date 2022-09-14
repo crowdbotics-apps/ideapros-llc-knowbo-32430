@@ -23,10 +23,10 @@ const getNavigation = (modules, screens, initialRoute) => {
       const pakage = mod.package;
       const name = mod.value.title;
       const Navigator = mod.value.navigator;
-      const Component = () => {
+      const Component = ({ navigation }) => {
         return (
           <OptionsContext.Provider value={getOptions(pakage)}>
-            <Navigator />
+            <Navigator navigation={navigation} />
           </OptionsContext.Provider>
         )
       }
