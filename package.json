@@ -12,6 +12,7 @@
     "web-build": "react-app-rewired build && mkdir -p backend/web_build && cp -R build/* backend/web_build"
   },
   "dependencies": {
+    "@modules/app-menu": "file:./modules/app-menu/",
     "@modules/onboarding": "file:./modules/onboarding/",
     "@modules/privacy-policy": "file:./modules/privacy-policy",
     "@modules/splash": "file:./modules/splash/",
@@ -27,14 +28,14 @@
     "react-native-dotenv": "^2.5.3",
     "react-native-elements": "^3.3.1",
     "react-native-gesture-handler": "^1.10.3",
+    "react-native-radio-buttons-group": "^2.2.11",
     "react-native-reanimated": "^2.0.0",
     "react-native-responsive-screen": "^1.4.2",
     "react-native-safe-area-context": "^3.2.0",
     "react-native-screens": "^2.18.1",
     "react-native-vector-icons": "^8.1.0",
     "react-redux": "^7.2.2",
-    "redux": "^4.0.5",
-    "react-native-radio-buttons-group": "^2.2.11"
+    "redux": "^4.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
